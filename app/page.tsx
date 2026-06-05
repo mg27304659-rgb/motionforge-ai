@@ -142,7 +142,7 @@ export default function MotionForgeAI() {
                   </label>
 
                   <textarea
-                    rows="5"
+                   rows={5}
                     placeholder="Describe your video style..."
                     className="w-full bg-zinc-900 border border-zinc-700 rounded-xl p-4"
                   />
