@@ -99,10 +99,12 @@ export default function MotionForgeAI() {
               </h4>
 
               <div className="border-2 border-dashed border-zinc-700 rounded-2xl p-10 text-center mb-6">
-                <p className="text-zinc-400">
-                  Drag & Drop Character Image
-                </p>
-              </div>
+  <input
+    type="file"
+    accept="image/*"
+    className="w-full"
+  />
+</div>
 
               <div className="border-2 border-dashed border-zinc-700 rounded-2xl p-10 text-center">
                 <p className="text-zinc-400">
@@ -147,7 +149,16 @@ export default function MotionForgeAI() {
                     className="w-full bg-zinc-900 border border-zinc-700 rounded-xl p-4"
                   />
                 </div>
+<input
+  type="file"
+  accept="image/*"
+<input type="file" />
 
+<input
+  type="file"
+  accept="video/*"
+  className="w-full bg-zinc-900 border border-zinc-700 rounded-xl p-4"
+/>
                 <button className="w-full bg-purple-500 hover:bg-purple-600 py-4 rounded-2xl font-bold text-lg">
                   Generate AI Video
                 </button>
