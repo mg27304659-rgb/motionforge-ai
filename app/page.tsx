@@ -98,14 +98,10 @@ export default function MotionForgeAI() {
                 Upload Files
               </h4>
 
-              <div className="border-2 border-dashed border-zinc-700 rounded-2xl p-10 text-center mb-6">
-  <input
-    type="file"
-    accept="image/*"
-    className="w-full"
-  />
-</div>
-
+    <input
+  type="file"
+  accept="image/*"
+/>
               <div className="border-2 border-dashed border-zinc-700 rounded-2xl p-10 text-center">
                 <p className="text-zinc-400">
                   Drag & Drop Reference Video
